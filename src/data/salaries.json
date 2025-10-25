@@ -29,7 +29,6 @@
     "avg_salary": 10720804,
     "reports": 0
   },
-
   {
     "company_name": "Microsoft",
     "designation": "Senior SDE",
@@ -50,7 +49,6 @@
     "avg_salary": 5910000,
     "reports": 0
   },
-
   {
     "company_name": "Amazon",
     "designation": "SDE I (L4)",
@@ -91,7 +89,6 @@
     "avg_salary": 18512934,
     "reports": 0
   },
-
   {
     "company_name": "Flipkart",
     "designation": "SDE 1",
@@ -132,7 +129,6 @@
     "avg_salary": 6660000,
     "reports": 0
   },
-
   {
     "company_name": "Uber",
     "designation": "Software Engineer I",
@@ -163,7 +159,6 @@
     "avg_salary": 13152433,
     "reports": 0
   },
-
   {
     "company_name": "Walmart Global Tech",
     "designation": "Software Engineer III (L3)",
@@ -184,7 +179,6 @@
     "avg_salary": 5280000,
     "reports": 0
   },
-
   {
     "company_name": "Atlassian",
     "designation": "Junior Engineer (P30)",
@@ -215,7 +209,6 @@
     "avg_salary": 11300000,
     "reports": 0
   },
-
   {
     "company_name": "PhonePe",
     "designation": "Software Engineer 1",
@@ -246,7 +239,6 @@
     "avg_salary": 7930000,
     "reports": 0
   },
-
   {
     "company_name": "Adobe",
     "designation": "Software Engineer 2 (P20)",
@@ -287,7 +279,6 @@
     "avg_salary": 11507664,
     "reports": 0
   },
-
   {
     "company_name": "Salesforce",
     "designation": "Associate MTS",
@@ -308,7 +299,6 @@
     "avg_salary": 4820038,
     "reports": 0
   },
-
   {
     "company_name": "Oracle",
     "designation": "IC-2 (Member of Technical Staff)",
@@ -339,7 +329,6 @@
     "avg_salary": 7012678,
     "reports": 0
   },
-
   {
     "company_name": "Razorpay",
     "designation": "Software Engineer",
@@ -360,7 +349,6 @@
     "avg_salary": 5346272,
     "reports": 0
   },
-
   {
     "company_name": "Swiggy",
     "designation": "Software Engineer I (L6)",
@@ -371,7 +359,6 @@
     "avg_salary": 2064814,
     "reports": 0
   },
-
   {
     "company_name": "Zomato",
     "designation": "Software Engineer – median",
@@ -382,7 +369,6 @@
     "avg_salary": 4050000,
     "reports": 0
   },
-
   {
     "company_name": "Freshworks",
     "designation": "Software Engineer (Entry)",
@@ -412,5 +398,35 @@
     "max_salary": 4710000,
     "avg_salary": 4710000,
     "reports": 0
+  },
+  {
+    "company_name": "oracle",
+    "designation": "IC-4",
+    "location": "India",
+    "yoe": 6,
+    "min_salary": 0,
+    "max_salary": 0,
+    "avg_salary": 75000,
+    "reports": 1,
+    "currency": "USD",
+    "id": "1761365841398a7aax0ha4",
+    "user_submitted": true,
+    "created_at": "2025-10-25T04:17:21.399Z",
+    "updated_at": "2025-10-25T04:17:21.400Z"
+  },
+  {
+    "company_name": "oracle",
+    "designation": "IC-4",
+    "location": "India",
+    "yoe": 6,
+    "min_salary": 0,
+    "max_salary": 0,
+    "avg_salary": 140,
+    "reports": 1,
+    "currency": "EUR",
+    "id": "1761366213972f4jjkakut",
+    "user_submitted": true,
+    "created_at": "2025-10-25T04:23:33.973Z",
+    "updated_at": "2025-10-25T04:23:33.973Z"
   }
 ]

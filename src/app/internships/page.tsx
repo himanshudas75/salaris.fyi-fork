@@ -4,6 +4,9 @@ import { useState, useMemo, useRef, useEffect } from "react";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import SalaryDetailsPanel from "@/components/SalaryDetailsPanel";
+import SalarySubmissionCard from "@/components/SalarySubmissionCard";
+import SalarySubmissionModal from "@/components/SalarySubmissionModal";
+import Button from "@/components/Button";
 
 interface InternshipData {
   company_name: string;
@@ -16,6 +19,7 @@ interface InternshipData {
   reports: number;
   university: string;
   year: number;
+  currency?: string;
 }
 
 interface Filters {
@@ -33,6 +37,9 @@ type SortField = keyof InternshipData;
 type SortDirection = "asc" | "desc";
 
 export default function InternshipsPage() {
+  // Salary submission modal state
+  const [isSalaryModalOpen, setIsSalaryModalOpen] = useState(false);
+
   // Sample internship data
   const internshipData: InternshipData[] = [
     {
@@ -975,12 +982,15 @@ export default function InternshipsPage() {
 
   // Calculate stipend range from data
   const stipendRange = useMemo(() => {
+    if (internshipData.length === 0) {
+      return { min: 0, max: 100000 }; // Default range when no data
+    }
     const allStipends = internshipData.map((item) => item.stipend_avg);
     return {
       min: Math.floor(Math.min(...allStipends)),
       max: Math.ceil(Math.max(...allStipends)),
     };
-  }, []);
+  }, [internshipData]);
 
   const [filters, setFilters] = useState<Filters>({
     companyName: "",
@@ -1194,8 +1204,8 @@ export default function InternshipsPage() {
       <div className="flex flex-col items-center justify-center w-4 h-4">
         <svg
           className={`w-3 h-3 transition-colors ${isActive
-              ? "text-slate-600"
-              : "text-gray-400 group-hover:text-gray-600"
+            ? "text-slate-600"
+            : "text-gray-400 group-hover:text-gray-600"
             }`}
           fill="none"
           stroke="currentColor"
@@ -1233,8 +1243,15 @@ export default function InternshipsPage() {
               Real stipend data from 500+ companies. Don't settle for less.
             </p>
           </div>
+          
+          {/* Salary Submission Card */}
+          <SalarySubmissionCard
+            onAddSalary={() => setIsSalaryModalOpen(true)}
+            pageType="internship"
+          />
         </div>
       </div>
+
 
       {/* Filters Section */}
       <div className="bg-white shadow-sm border-b border-gray-200">
@@ -1249,15 +1266,12 @@ export default function InternshipsPage() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900">Filter Internships</h3>
             </div>
-            <button
-              onClick={resetFilters}
-              className="flex items-center gap-2 px-4 py-2 text-sm bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors font-medium shadow-sm hover:shadow-md"
-            >
+            <Button onClick={resetFilters}>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
               </svg>
               Reset Filters
-            </button>
+            </Button>
           </div>
 
           {/* Filter Grid */}
@@ -1399,8 +1413,8 @@ export default function InternshipsPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-900">Stipend Range</h4>
-                  <p className="text-xs text-gray-600">Filter by monthly stipend</p>
+                  <h4 className="text-sm font-semibold text-gray-900">Total Stipend Range</h4>
+                  <p className="text-xs text-gray-600">Filter by total stipend</p>
                 </div>
               </div>
               <div className="text-right">
@@ -1433,18 +1447,6 @@ export default function InternshipsPage() {
           </div>
 
           {/* Results Summary */}
-          <div className="mt-4 flex items-center justify-between">
-            <div className="text-sm text-gray-600 flex items-center">
-              Showing{" "}
-              <span className="font-semibold mx-1 text-slate-600">
-                {filteredAndSortedData.length}
-              </span>{" "}
-              results
-            </div>
-            <div className="text-xs text-gray-500">
-              Last updated: {new Date().toLocaleDateString()}
-            </div>
-          </div>
         </div>
       </div>
 
@@ -1475,9 +1477,9 @@ export default function InternshipsPage() {
                 </p>
               </div>
             ) : (
-                <div className="bg-white shadow-sm rounded-xl overflow-hidden border border-gray-200 flex-1 flex flex-col">
-                  <div className="overflow-x-auto flex-1 flex flex-col">
-                    <table className="min-w-full divide-y divide-gray-200 flex-1">
+              <div className="bg-white shadow-sm rounded-xl overflow-hidden border border-gray-200 flex-1 flex flex-col">
+                <div className="overflow-x-auto flex-1 flex flex-col">
+                  <table className="min-w-full divide-y divide-gray-200 flex-1">
                     <thead className="bg-gradient-to-r from-slate-50 to-slate-100 sticky top-0">
                       <tr>
                         <th
@@ -1517,29 +1519,11 @@ export default function InternshipsPage() {
                           </div>
                         </th>
                         <th
-                          className="group px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors select-none w-32"
-                          onClick={() => handleSort("stipend_min")}
-                        >
-                          <div className="flex items-center justify-between w-full">
-                            <span className="flex-1">Min Stipend</span>
-                            <SortIcon field="stipend_min" />
-                          </div>
-                        </th>
-                        <th
-                          className="group px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors select-none w-32"
-                          onClick={() => handleSort("stipend_max")}
-                        >
-                          <div className="flex items-center justify-between w-full">
-                            <span className="flex-1">Max Stipend</span>
-                            <SortIcon field="stipend_max" />
-                          </div>
-                        </th>
-                        <th
-                          className="group px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors select-none w-32"
+                          className="group px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors select-none w-40"
                           onClick={() => handleSort("stipend_avg")}
                         >
                           <div className="flex items-center justify-between w-full">
-                            <span className="flex-1">Avg Stipend</span>
+                            <span className="flex-1">Total Stipend</span>
                             <SortIcon field="stipend_avg" />
                           </div>
                         </th>
@@ -1550,6 +1534,15 @@ export default function InternshipsPage() {
                           <div className="flex items-center justify-between w-full">
                             <span className="flex-1">University</span>
                             <SortIcon field="university" />
+                          </div>
+                        </th>
+                        <th
+                          className="group px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider cursor-pointer hover:bg-gray-200 transition-colors select-none w-20"
+                          onClick={() => handleSort("currency")}
+                        >
+                          <div className="flex items-center justify-between w-full">
+                            <span className="flex-1">Currency</span>
+                            <SortIcon field="currency" />
                           </div>
                         </th>
                         <th
@@ -1567,9 +1560,8 @@ export default function InternshipsPage() {
                       {currentData.map((item, index) => (
                         <tr
                           key={`${item.company_name}-${item.role}-${index}`}
-                          className={`hover:bg-slate-50 hover:shadow-sm transition-all duration-150 cursor-pointer ${
-                            selectedRowIndex === index ? 'bg-slate-200 border-2 border-slate-300' : ''
-                          }`}
+                          className={`hover:bg-slate-50 hover:shadow-sm transition-all duration-150 cursor-pointer ${selectedRowIndex === index ? 'bg-slate-200 border-2 border-slate-300' : ''
+                            }`}
                           onClick={() => handleRowClick(item, index)}
                         >
                           <td className="px-6 py-4 whitespace-nowrap">
@@ -1593,16 +1585,6 @@ export default function InternshipsPage() {
                             </div>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
-                            <div className="text-sm text-gray-700">
-                              {formatCurrency(item.stipend_min)}
-                            </div>
-                          </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
-                            <div className="text-sm text-gray-700">
-                              {formatCurrency(item.stipend_max)}
-                            </div>
-                          </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
                             <div className="text-sm font-bold text-slate-600">
                               {formatCurrency(item.stipend_avg)}
                             </div>
@@ -1610,6 +1592,11 @@ export default function InternshipsPage() {
                           <td className="px-6 py-4 whitespace-nowrap">
                             <div className="text-sm text-gray-700">
                               {item.university}
+                            </div>
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            <div className="text-sm text-gray-700">
+                              {item.currency || 'INR'}
                             </div>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
@@ -1670,8 +1657,8 @@ export default function InternshipsPage() {
                       key={page}
                       onClick={() => setCurrentPage(page)}
                       className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${page === currentPage
-                          ? "bg-slate-500 text-white shadow-md"
-                          : "text-gray-700 bg-white border border-gray-300 hover:bg-slate-50"
+                        ? "bg-slate-500 text-white shadow-md"
+                        : "text-gray-700 bg-white border border-gray-300 hover:bg-slate-50"
                         }`}
                     >
                       {page}
@@ -1692,6 +1679,13 @@ export default function InternshipsPage() {
             </div>
           </div>
         )}
+
+           {/* Salary Submission Modal */}
+           <SalarySubmissionModal
+             isOpen={isSalaryModalOpen}
+             onClose={() => setIsSalaryModalOpen(false)}
+             pageType="internship"
+           />
       </div>
     </div>
   );

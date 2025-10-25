@@ -20,7 +20,7 @@ export default function AboutUs() {
               </h1>
             </Link>
             <p className="text-lg text-slate-600">
-              Discover salary insights across various companies
+              Real salary data from 1000+ companies. Stop guessing, start negotiating.
             </p>
           </div>
         </div>

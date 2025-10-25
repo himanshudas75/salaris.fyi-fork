@@ -3,8 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ThemeProvider } from "@/contexts/ThemeContext";
-import { LanguageProvider } from "@/contexts/LanguageContext";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -39,14 +37,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider>
-          <LanguageProvider>
-            <Navbar />
-            {children}
-            <Footer />
-            <Analytics />
-          </LanguageProvider>
-        </ThemeProvider>
+        <Navbar />
+        {children}
+        <Footer />
+        <Analytics />
       </body>
     </html>
   );
