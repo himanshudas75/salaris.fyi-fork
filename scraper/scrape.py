@@ -131,12 +131,17 @@ class Scraper:
         self.set_salary_weekdays()
 
 if __name__ == "__main__":
-    sc = Scraper()
+    with open("companies.json", "r") as f:
+        companies = json.load(f)
 
-    sc.set_company("Oracle")
+    salaries = dict()
+    for company in companies:
+        sc = Scraper()
 
-    sc.set_all_salaries()
-    salaries = sc.get_salaries()
+        sc.set_company(company)
 
+        sc.set_all_salaries()
+        salaries[company] = sc.get_salaries()
+    
     with open("salaries.json", "w") as f:
         json.dump(salaries, f, indent=2)
