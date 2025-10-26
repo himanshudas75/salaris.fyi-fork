@@ -4,21 +4,40 @@ from bs4 import BeautifulSoup
 
 class Scraper:
     def __init__(self):
-        self._salary_URL = "https://www.levels.fyi/companies/{company_name}/salaries/software-engineer/locations/india?country=113"
+        self._salary_URL = {
+            "levels_fyi":"https://www.levels.fyi/companies/{company_name}/salaries/software-engineer/locations/india?country=113",
+            "weekday": "https://www.weekday.works/salary/what-salary-does-{company_name}-pay",
+            "ambitionbox": "https://www.ambitionbox.com/salaries/{company_name}-salaries"
+        }
         self._company = None
-        self._salaries = list()
+        self._salaries = dict()
 
-    def scrape_salary(self):
+    def set_company(self, company_name):
+        self._company = company_name
+
+    def get_company(self):
+        return self._company
+    
+    def set_salaries(self, salaries):
+        self._salaries = salaries
+
+    def get_salaries(self):
+        return self._salaries
+
+    def scrape_salary_levels_fyi(self):
         company_name = self._company.lower()
-        url = self._salary_URL.format(company_name=company_name)
+        url = self._salary_URL["levels_fyi"].format(company_name=company_name)
         r = requests.get(url)
 
         soup = BeautifulSoup(r.text, 'html.parser')
         next_data = soup.find('script', id='__NEXT_DATA__')
+
+        output_data = list()
         if next_data:
             try:
                 data = json.loads(next_data.string)
                 data = data['props']['pageProps']
+                
                 salaries = data['averages']
 
                 exchange_rate = data['locationExchangeRate']
@@ -34,37 +53,90 @@ class Scraper:
                         'total_compensation': salary['rawValues']['total'] * exchange_rate
                     }
 
-                    self._salaries.append({
+                    output_data.append({
                         'primary_level_name': primary_level_name,
                         'secondary_level_name': secondary_level_name,
                         'compensation': compensation
                     })
 
-                return self._salaries
+                return output_data
 
             except json.JSONDecodeError:
                 print("Failed to parse JSON data from script tag")
                 return None
 
-    def set_company(self, company_name):
-        self._company = company_name
+    def scrape_salary_weekdays(self):
+        company_name = self._company.lower()
+        url = self._salary_URL["weekday"].format(company_name=company_name)
+        r = requests.get(url)
+        output = r.text
 
-    def get_company(self):
-        return self._company
+        soup = BeautifulSoup(output, 'html.parser')
+        next_data = soup.find('script', id='__NEXT_DATA__')
+
+        if next_data:
+            try:
+                data = json.loads(next_data.string)
+                data = data['props']['pageProps']["salaryData"]
+
+                roles = data['roles']
+                output_data = dict()
+                
+                for role in roles:
+                    role_name = role["role"]
+
+                    salaries = role["individualSalaries"]
+
+                    output_data[role_name] = list()
+
+                    for salary in salaries:
+                        level_name = salary['role']
+                        years_of_experience = salary['yearsOfExperience']
+                        compensation = salary['salary']
+
+                        output_data[role_name].append({
+                            'level_name': level_name,
+                            'years_of_experience': years_of_experience,
+                            'compensation': compensation
+                        })
+
+                return output_data
+
+            except json.JSONDecodeError:
+                print("Failed to parse JSON data from script tag")
+                return None
     
-    def get_data(self):
+    def set_salary_levels_fyi(self):
         data = {
             "company_name": self._company,
-            "salaries": self.scrape_salary()
+            "salaries": self.scrape_salary_levels_fyi()
         }
 
-        return data
+        salaries = self.get_salaries()
+        salaries["levels_fyi"] = data
+        self.set_salaries(salaries)
+
+    def set_salary_weekdays(self):
+        data = {
+            "company_name": self._company,
+            "salaries": self.scrape_salary_weekdays()
+        }
+
+        salaries = self.get_salaries()
+        salaries["weekday"] = data
+        self.set_salaries(salaries)
+    
+    def set_all_salaries(self):
+        self.set_salary_levels_fyi()
+        self.set_salary_weekdays()
 
 if __name__ == "__main__":
     sc = Scraper()
 
     sc.set_company("Oracle")
-    salaries = sc.get_data()
-    
-    output = json.dumps(salaries, indent=2)
-    print(output)
+
+    sc.set_all_salaries()
+    salaries = sc.get_salaries()
+
+    with open("salaries.json", "w") as f:
+        json.dump(salaries, f, indent=2)

@@ -1,0 +1,2284 @@
+{
+  "levels_fyi": {
+    "company_name": "Oracle",
+    "salaries": [
+      {
+        "primary_level_name": "IC-1",
+        "secondary_level_name": null,
+        "compensation": {
+          "base": 1642301.364,
+          "bonus": 69887.007,
+          "stock": 479509.737,
+          "total_compensation": 2191698.108
+        }
+      },
+      {
+        "primary_level_name": "IC-2",
+        "secondary_level_name": "Member of Technical Staff",
+        "compensation": {
+          "base": 2151601.845,
+          "bonus": 14635.569,
+          "stock": 1105028.76,
+          "total_compensation": 3271179.573
+        }
+      },
+      {
+        "primary_level_name": "IC-3",
+        "secondary_level_name": "Senior MTS",
+        "compensation": {
+          "base": 2443360.614,
+          "bonus": 6754.878,
+          "stock": 1266799.428,
+          "total_compensation": 3716914.92
+        }
+      },
+      {
+        "primary_level_name": "IC-4",
+        "secondary_level_name": "Principal MTS",
+        "compensation": {
+          "base": 4251935.898,
+          "bonus": 74823.264,
+          "stock": 2484582.69,
+          "total_compensation": 6811341.852
+        }
+      },
+      {
+        "primary_level_name": "IC-5",
+        "secondary_level_name": "Consulting MTS",
+        "compensation": {
+          "base": 4798041.804,
+          "bonus": 36026.016,
+          "stock": 2349658.332,
+          "total_compensation": 7183726.152
+        }
+      }
+    ]
+  },
+  "weekday": {
+    "company_name": "Oracle",
+    "salaries": {
+      "backend": [
+        {
+          "level_name": "Application Developer",
+          "years_of_experience": 3,
+          "compensation": 7.7
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Associate Consultant",
+          "years_of_experience": 2,
+          "compensation": 6.6
+        },
+        {
+          "level_name": "Associate Consultant",
+          "years_of_experience": 2,
+          "compensation": 7.5
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 1,
+          "compensation": 9.9
+        },
+        {
+          "level_name": "Staff Consultant",
+          "years_of_experience": 3,
+          "compensation": 8.8
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 2,
+          "compensation": 11
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 2,
+          "compensation": 11.4
+        },
+        {
+          "level_name": "Application Developer",
+          "years_of_experience": 1,
+          "compensation": 9.9
+        },
+        {
+          "level_name": "Application Developer",
+          "years_of_experience": 3,
+          "compensation": 10.6
+        },
+        {
+          "level_name": "Senior Application Developer",
+          "years_of_experience": 2,
+          "compensation": 11.4
+        },
+        {
+          "level_name": "Associate Application Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Application Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Software Development Engineer - 2",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Application Engineer 2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Applications Engineer",
+          "years_of_experience": 4,
+          "compensation": 29.7
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 31.5
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 28.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 2,
+          "compensation": 21.1
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 1,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "SDE 2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 3,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 2,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Application Developer",
+          "years_of_experience": 2,
+          "compensation": 22.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 22
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 30.3
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.3
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 4,
+          "compensation": 31.9
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 2,
+          "compensation": 21.7
+        },
+        {
+          "level_name": "Senior Software Developer",
+          "years_of_experience": 2,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Development Engineer - II",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Sde2",
+          "years_of_experience": 2,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Senior Applications Engineer",
+          "years_of_experience": 2,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Senioe Software Developer",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Software Engineer II",
+          "years_of_experience": 4,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Applications Engineer 2",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Application Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Senior IT Consultant",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Senior Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 36.3
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 27
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 24.4
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 3,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Senior Applications Engineer",
+          "years_of_experience": 3,
+          "compensation": 28.6
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 1,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Application Developer",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Applications Engineer",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 26
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Application Engineer",
+          "years_of_experience": 2,
+          "compensation": 22.4
+        }
+      ],
+      "frontend": [
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Associate Consultant",
+          "years_of_experience": 2,
+          "compensation": 6.6
+        },
+        {
+          "level_name": "Associate Consultant",
+          "years_of_experience": 2,
+          "compensation": 7.5
+        },
+        {
+          "level_name": "Staff Consultant",
+          "years_of_experience": 3,
+          "compensation": 8.8
+        },
+        {
+          "level_name": "Associate Application Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Software Development Engineer - 2",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 31.5
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 28.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 2,
+          "compensation": 21.1
+        },
+        {
+          "level_name": "SDE 2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 30.3
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.3
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 4,
+          "compensation": 31.9
+        },
+        {
+          "level_name": "Senior Software Developer",
+          "years_of_experience": 2,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Development Engineer - II",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Sde2",
+          "years_of_experience": 2,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Senioe Software Developer",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Software Engineer II",
+          "years_of_experience": 4,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Senior IT Consultant",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 27
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 24.4
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 1,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 26
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 21.3
+        },
+        {
+          "level_name": "Associate Application Developer",
+          "years_of_experience": 1,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 28.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 29.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Development Engineer II",
+          "years_of_experience": 3,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 22
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 28.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Development Engineer - 2",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "SDE-2",
+          "years_of_experience": 3,
+          "compensation": 45.1
+        },
+        {
+          "level_name": "SDE-2",
+          "years_of_experience": 3,
+          "compensation": 46.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "SDE 2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Senior Software Developer",
+          "years_of_experience": 2,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 3,
+          "compensation": 47.3
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Engineer II",
+          "years_of_experience": 4,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        }
+      ],
+      "fullstack": [
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Associate Consultant",
+          "years_of_experience": 2,
+          "compensation": 6.6
+        },
+        {
+          "level_name": "Associate Consultant",
+          "years_of_experience": 2,
+          "compensation": 7.5
+        },
+        {
+          "level_name": "Associate Application Developer",
+          "years_of_experience": 1,
+          "compensation": 10.5
+        },
+        {
+          "level_name": "Software Development Engineer - 2",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 31.5
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 28.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 2,
+          "compensation": 21.1
+        },
+        {
+          "level_name": "SDE 2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 30.3
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Engineer 2",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.3
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 4,
+          "compensation": 31.9
+        },
+        {
+          "level_name": "Senior Software Developer",
+          "years_of_experience": 2,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Development Engineer - II",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Sde2",
+          "years_of_experience": 2,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Senioe Software Developer",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Software Engineer II",
+          "years_of_experience": 4,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 27
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 24.4
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 1,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 26
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 21.3
+        },
+        {
+          "level_name": "Associate Application Developer",
+          "years_of_experience": 1,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 28.6
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 29.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 2,
+          "compensation": 23.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Development Engineer II",
+          "years_of_experience": 3,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 22
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 28.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Software Development Engineer - 2",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "SDE-2",
+          "years_of_experience": 3,
+          "compensation": 45.1
+        },
+        {
+          "level_name": "SDE-2",
+          "years_of_experience": 3,
+          "compensation": 46.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "SDE 2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Development Engineer",
+          "years_of_experience": 4,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Senior Software Developer",
+          "years_of_experience": 2,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Software Developer",
+          "years_of_experience": 3,
+          "compensation": 47.3
+        },
+        {
+          "level_name": "Senior Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Software Engineer II",
+          "years_of_experience": 4,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Software Engineer",
+          "years_of_experience": 3,
+          "compensation": 33
+        }
+      ],
+      "tech lead": [
+        {
+          "level_name": "Staff Consultant",
+          "years_of_experience": 3,
+          "compensation": 8.8
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 31.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 2,
+          "compensation": 21.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.3
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 4,
+          "compensation": 31.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 27
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 26
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 21.3
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 29.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 30.8
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 22
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 28.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 1,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 47.3
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member Technical Staff",
+          "years_of_experience": 2,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff-2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 34.1
+        },
+        {
+          "level_name": "Sde3",
+          "years_of_experience": 5,
+          "compensation": 47.3
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Member of Techinical Staff",
+          "years_of_experience": 6,
+          "compensation": 50.6
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 7,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff 2",
+          "years_of_experience": 5,
+          "compensation": 34.1
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 33
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 45.1
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 33
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 37.4
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 33
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 39.6
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 42.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 41.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 48.4
+        },
+        {
+          "level_name": "Senior Member of Techinal Staff",
+          "years_of_experience": 5,
+          "compensation": 52.8
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 47.3
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 44
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 33
+        },
+        {
+          "level_name": "Member of Technical Staff-2",
+          "years_of_experience": 3,
+          "compensation": 38.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 25.3
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 7,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 16.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 26.4
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 22
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 18.2
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 7,
+          "compensation": 19.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 24.9
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 17.1
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 19.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 7,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 23.2
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 27.5
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 20.4
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 3,
+          "compensation": 24.8
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 18.7
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 17.6
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 5,
+          "compensation": 17.2
+        },
+        {
+          "level_name": "Member of Technical Staff",
+          "years_of_experience": 4,
+          "compensation": 18.2
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 16.5
+        },
+        {
+          "level_name": "Senior Member Technical Staff",
+          "years_of_experience": 6,
+          "compensation": 18.7
+        },
+        {
+          "level_name": "Senior Member of Technical Staff",
+          "years_of_experience": 7,
+          "compensation": 18.7
+        }
+      ],
+      "dev-ops": [
+        {
+          "level_name": "Platform Software Engineer 2",
+          "years_of_experience": 6,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Platform Software Engineer, NetSuite",
+          "years_of_experience": 4,
+          "compensation": 19.8
+        },
+        {
+          "level_name": "Platform Software Engineer 2",
+          "years_of_experience": 6,
+          "compensation": 20.4
+        },
+        {
+          "level_name": "Platform Software Engineer 2",
+          "years_of_experience": 6,
+          "compensation": 35.2
+        }
+      ],
+      "data engineer": [
+        {
+          "level_name": "ML Engineer",
+          "years_of_experience": 3,
+          "compensation": 31.9
+        },
+        {
+          "level_name": "Senior Machine Learning Engineer",
+          "years_of_experience": 6,
+          "compensation": 40.7
+        }
+      ],
+      "data science": [
+        {
+          "level_name": "ML Engineer",
+          "years_of_experience": 3,
+          "compensation": 31.9
+        },
+        {
+          "level_name": "Data Science Intern",
+          "years_of_experience": 3,
+          "compensation": 22
+        },
+        {
+          "level_name": "Senior Machine Learning Engineer",
+          "years_of_experience": 6,
+          "compensation": 40.7
+        },
+        {
+          "level_name": "Data Scientist",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        }
+      ],
+      "test / qa": [
+        {
+          "level_name": "QA Analyst III - Software Developer",
+          "years_of_experience": 5,
+          "compensation": 16.5
+        },
+        {
+          "level_name": "Software Developer in Test",
+          "years_of_experience": 1,
+          "compensation": 11
+        }
+      ],
+      "sre": [
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 5,
+          "compensation": 44
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        },
+        {
+          "level_name": "Senior Site Reliability Engineer",
+          "years_of_experience": 4,
+          "compensation": 41.4
+        }
+      ],
+      "data-infrastructure": [
+        {
+          "level_name": "Platform Software Engineer 2",
+          "years_of_experience": 6,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Cloud Computing Computing Engineer",
+          "years_of_experience": 3,
+          "compensation": 20.8
+        },
+        {
+          "level_name": "Cloud Solution Engineer",
+          "years_of_experience": 5,
+          "compensation": 20.7
+        },
+        {
+          "level_name": "Platform Software Engineer, NetSuite",
+          "years_of_experience": 4,
+          "compensation": 19.8
+        },
+        {
+          "level_name": "Platform Software Engineer 2",
+          "years_of_experience": 6,
+          "compensation": 20.4
+        },
+        {
+          "level_name": "Cloud Computing Computing Engineer",
+          "years_of_experience": 3,
+          "compensation": 20.8
+        },
+        {
+          "level_name": "Cloud Solution Engineer",
+          "years_of_experience": 5,
+          "compensation": 20.7
+        },
+        {
+          "level_name": "Cloud Computing Computing Engineer",
+          "years_of_experience": 3,
+          "compensation": 20.8
+        },
+        {
+          "level_name": "Cloud Computing Computing Engineer",
+          "years_of_experience": 3,
+          "compensation": 20.8
+        },
+        {
+          "level_name": "Platform Software Engineer 2",
+          "years_of_experience": 6,
+          "compensation": 35.2
+        },
+        {
+          "level_name": "Cloud Computing Computing Engineer",
+          "years_of_experience": 3,
+          "compensation": 20.8
+        },
+        {
+          "level_name": "Data Science Intern",
+          "years_of_experience": 3,
+          "compensation": 22
+        },
+        {
+          "level_name": "Data Scientist",
+          "years_of_experience": 2,
+          "compensation": 20.9
+        },
+        {
+          "level_name": "Data Applications Engineer",
+          "years_of_experience": 4,
+          "compensation": 27.5
+        }
+      ],
+      "product manager": [
+        {
+          "level_name": "Project Lead",
+          "years_of_experience": 6,
+          "compensation": 34.1
+        },
+        {
+          "level_name": "IT Analyst 2",
+          "years_of_experience": 4,
+          "compensation": 18.7
+        },
+        {
+          "level_name": "IT Analyst 2",
+          "years_of_experience": 4,
+          "compensation": 18.7
+        },
+        {
+          "level_name": "IT Analyst 2",
+          "years_of_experience": 4,
+          "compensation": 18.7
+        },
+        {
+          "level_name": "Project Lead",
+          "years_of_experience": 6,
+          "compensation": 34.1
+        },
+        {
+          "level_name": "Project Lead",
+          "years_of_experience": 6,
+          "compensation": 34.1
+        }
+      ]
+    }
+  }
+}
